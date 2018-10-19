@@ -1,0 +1,22 @@
+name: cv
+
+channels:
+  - conda-forge
+  - pytorch
+
+dependencies:
+  - python=3.6
+  - numpy
+  - scipy
+  - scikit-learn
+  - pandas
+  - matplotlib
+  - seaborn
+  - jupyter
+  - jupyterlab
+  - pytorch
+  - torchvision
+  - hug
+  - scikit-image
+  - pip:
+    - opencv-python
